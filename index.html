@@ -31,7 +31,11 @@ body{
   background:var(--bg);color:var(--tx1);
   font-family:var(--fb);font-size:14px;
   line-height:1.6;min-height:100vh;
-  padding:52px 28px 80px;
+  padding:52px 40px 80px;
+}
+.page-inner{
+  max-width:1140px;
+  margin:0 auto;
 }
 
 /* HEADER */
@@ -364,6 +368,7 @@ body{
 </head>
 <body>
 
+<div class="page-inner">
 <div class="page-pre">Александр Кинезиолог · Финансовая модель</div>
 <h1 class="page-title">Калькулятор<br><em>запуска</em></h1>
 <p class="page-desc">
@@ -701,154 +706,6 @@ body{
 </div>
 
 
-<!-- ══════════════ ДВА ПУТИ ══════════════ -->
-<div class="paths-section">
-
-  <div class="paths-header">
-    <div class="paths-pre">Стратегия</div>
-    <h2 class="paths-title">Два пути к <em>запуску</em></h2>
-    <p class="paths-desc">Выбери стратегию исходя из текущей ситуации — у каждого пути своя логика роста и временной горизонт.</p>
-  </div>
-
-  <div class="paths-grid">
-
-    <!-- ПУТЬ А: С вложениями сразу -->
-    <div class="path-card path-a">
-      <div class="path-num">Путь 01</div>
-      <div class="path-badge slow">
-        <div class="path-badge-dot" style="background:var(--b5)"></div>
-        Старт с трафиком
-      </div>
-      <div class="path-title">Вложения<br>с первого дня</div>
-      <div class="path-subtitle">Строим инфраструктуру, упаковываем продукт и сразу начинаем лить трафик — рост быстрее, но нужны вложения на старте.</div>
-
-      <div class="path-steps">
-        <div class="path-step">
-          <div class="step-line-wrap">
-            <div class="step-dot active">01</div>
-            <div class="step-connector"></div>
-          </div>
-          <div class="step-body">
-            <div class="step-title">Разработка продукта</div>
-            <div class="step-desc">Создаём основной продукт и клуб, формируем программу и методологию</div>
-            <span class="step-tag tag-time-slow">2–4 недели</span>
-          </div>
-        </div>
-        <div class="path-step">
-          <div class="step-line-wrap">
-            <div class="step-dot active">02</div>
-            <div class="step-connector"></div>
-          </div>
-          <div class="step-body">
-            <div class="step-title">Упаковка и инфраструктура</div>
-            <div class="step-desc">Посадочные страницы, воронка, чат-боты, CRM, автоматизация продаж</div>
-            <span class="step-tag tag-time-slow">2–3 недели</span>
-          </div>
-        </div>
-        <div class="path-step">
-          <div class="step-line-wrap">
-            <div class="step-dot active">03</div>
-            <div class="step-connector"></div>
-          </div>
-          <div class="step-body">
-            <div class="step-title">Запуск трафика</div>
-            <div class="step-desc">Вкладываем бюджет в рекламу, собираем подписчиков, запускаем прогрев</div>
-            <span class="step-tag tag-money">Бюджет из калькулятора</span>
-          </div>
-        </div>
-        <div class="path-step">
-          <div class="step-line-wrap">
-            <div class="step-dot active">04</div>
-            <div class="step-connector"></div>
-          </div>
-          <div class="step-body">
-            <div class="step-title">Продажи и масштаб</div>
-            <div class="step-desc">Конверсия в продукт и клуб, реинвестируем прибыль в следующий поток трафика</div>
-            <span class="step-tag tag-time-fast">Быстрый старт роста</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="path-outcome">
-        <div class="outcome-lbl">Результат</div>
-        <div class="outcome-text">Быстрый выход на стабильные продажи</div>
-        <div class="outcome-sub">Больше подписчиков с первого месяца → выше выручка уже в первом запуске. Требует стартового капитала.</div>
-      </div>
-    </div>
-
-    <!-- VS -->
-    <div class="paths-vs">
-      <div class="vs-line"></div>
-      <div class="vs-badge">или</div>
-      <div class="vs-line"></div>
-    </div>
-
-    <!-- ПУТЬ Б: Сначала дорогой продукт -->
-    <div class="path-card path-b">
-      <div class="path-num">Путь 02</div>
-      <div class="path-badge fast">
-        <div class="path-badge-dot" style="background:var(--t5)"></div>
-        Старт с продукта
-      </div>
-      <div class="path-title">Сначала продукт,<br>потом трафик</div>
-      <div class="path-subtitle">Делаем запуск дорогого продукта на текущей аудитории, собираем деньги — и на эти деньги уже запускаем трафик и масштабируемся.</div>
-
-      <div class="path-steps">
-        <div class="path-step">
-          <div class="step-line-wrap">
-            <div class="step-dot active">01</div>
-            <div class="step-connector"></div>
-          </div>
-          <div class="step-body">
-            <div class="step-title">Разработка и упаковка</div>
-            <div class="step-desc">Создаём продукт и базовую инфраструктуру — только то, что нужно для первого запуска</div>
-            <span class="step-tag tag-time-slow">2–3 недели</span>
-          </div>
-        </div>
-        <div class="path-step">
-          <div class="step-line-wrap">
-            <div class="step-dot active">02</div>
-            <div class="step-connector"></div>
-          </div>
-          <div class="step-body">
-            <div class="step-title">Запуск на текущую аудиторию</div>
-            <div class="step-desc">Продаём основной продукт текущим подписчикам без затрат на трафик — собираем первую выручку</div>
-            <span class="step-tag tag-money">Без бюджета на рекламу</span>
-          </div>
-        </div>
-        <div class="path-step">
-          <div class="step-line-wrap">
-            <div class="step-dot active">03</div>
-            <div class="step-connector"></div>
-          </div>
-          <div class="step-body">
-            <div class="step-title">Реинвест в трафик</div>
-            <div class="step-desc">На вырученные деньги запускаем платный трафик — рост начинается без личных вложений</div>
-            <span class="step-tag tag-time-fast">Старт через 4–6 недель</span>
-          </div>
-        </div>
-        <div class="path-step">
-          <div class="step-line-wrap">
-            <div class="step-dot active">04</div>
-            <div class="step-connector"></div>
-          </div>
-          <div class="step-body">
-            <div class="step-title">Полноценный масштаб</div>
-            <div class="step-desc">Цикл повторяется: трафик → продажи → реинвест. Рост органичный, без внешних рисков</div>
-            <span class="step-tag tag-time-slow">Чуть медленнее на старте</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="path-outcome">
-        <div class="outcome-lbl">Результат</div>
-        <div class="outcome-text">Рост без стартового капитала</div>
-        <div class="outcome-sub">Первые деньги от текущей аудитории → реинвест в трафик → масштаб. Медленнее, но без финансового риска.</div>
-      </div>
-    </div>
-
-  </div>
-</div>
 
 <script>
 [['budget-s','budget'],['cps-s','cps'],['prod-pct-s','prod-pct']].forEach(([s,i])=>{
@@ -972,5 +829,6 @@ function calc(){
 
 calc();
 </script>
+</div><!-- /page-inner -->
 </body>
 </html>
